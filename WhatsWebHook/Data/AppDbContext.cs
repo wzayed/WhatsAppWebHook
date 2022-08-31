@@ -12,5 +12,7 @@ namespace WhatsWebHook.Data
 
         public DbSet<Users> user { get; set; }
         public DbSet<Messages> messages { get; set; }
+        public DbSet<UserComments> UserComments { get; set; }
+        
     }
 }

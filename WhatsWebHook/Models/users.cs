@@ -12,5 +12,7 @@ namespace WhatsWebHook.Models
         public string? status_name { get; set; }
 
         ICollection<Messages> msgs { get; set; }
+        ICollection<UserComments> comments { get; set; }
+
     }
 }
